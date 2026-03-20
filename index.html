@@ -58,8 +58,8 @@
 
     <!-- EDIT TEAMS HERE -->
     <div>
-      <button class="button" onclick="vote('Team A')">Vote Team A</button>
-      <button class="button" onclick="vote('Team B')">Vote Team B</button>
+      <button class="button" onclick="vote('Team A')">Season hasn't started</button>
+      <button class="button" onclick="vote('Team B')">Season hasn't started</button>
     </div>
 
     <p id="voteResult"></p>
@@ -143,7 +143,7 @@ function vote(team) {
 }
 
 /* COUNTDOWN (EDIT DATE HERE) */
-const eventDate = new Date("2026-06-01T10:00:00"); // CHANGE THIS
+const eventDate = new Date("2026-00-00T10:00:00"); // CHANGE THIS
 
 function updateCountdown() {
   const now = new Date();
